@@ -27,6 +27,7 @@ export class Home extends React.Component {
 				}
 			])
 		});
+		this.setState({ taskInput: "" });
 		return false;
 	}
 
